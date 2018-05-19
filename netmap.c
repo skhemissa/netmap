@@ -11,15 +11,9 @@
 #include <netinet/if_ether.h>
 
 /***
-Fast pcap data insertion into database
+Fast pcap data insertion into SQLITE database
 
 writtend by Sabri Khemissa sabri.khemissa[at]gmail.com
-
-Only TCP packets are inserted into the database
-
-Prerequisites:
-	libpcap-dev
-	libsqlite3-dev
 
 Compilation command:
 	cc -o netmap netmap.c -l pcap -l sqlite3
